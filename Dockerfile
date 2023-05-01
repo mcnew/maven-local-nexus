@@ -1,3 +1,3 @@
 FROM maven:3-amazoncorretto-11-debian
 
-COPY settings.xml /root/.m2/settings-docker.xml
+COPY settings.xml /usr/share/maven/ref/settings-docker.xml
